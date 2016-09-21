@@ -1,7 +1,5 @@
 zuul:
   routes:
     hello:
-      path: /hey/**
-      url: http://localhost:8080/hello
-server:
-  port: 9090
+      path: /justHello/**
+      url: http://localhost:9090/hello
